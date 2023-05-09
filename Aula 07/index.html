@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=[device-width], initial-scale=1.0">
+    <title>Formulários</title>
+<style>
+    *{
+        margin: 0 auto;
+    }
+    body{
+        background-color: purple;
+    }
+    h1 {
+        color:crimson;
+        font-family: sans-serif;
+    }
+    fieldset {
+        background-color: cornflowerblue;
+        border: 3px solid black;
+        width:400px;
+    }
+    label{
+        background-color: darkgoldenrod;
+    }
+    .container{
+        background-color: coral;
+        width: 500px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="data"> Data</label>
+            <input type="date" name="data" id="data"/>
+            <br>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"/>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email"/>
+            <br>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"/>
+            <br>
+            <label for="cores">Cores</label>
+            <input type="color" nome="cores" id="cores">
+            <br>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea>
+            <br>
+            <label for="cidades">Cidades</label>
+            <select name="cidades" id="cidades">
+                <option value="Joiville">Joiville</option>
+                <option value="Curitiba">Curitiba</option>
+                <option value="pará">Pará</option>
+                <option value="goiania">Goiania</option>
+                <option value="argentina">Argentina</option>
+                <option value="parana">Paraná</option>
+            </select>
+            <br>
+            <label for="">Selecione sua disciplina</label>
+            <input type="checkbox" name="matematica" id="matematica" value="matematica">Matemática
+            <input type="checkbox" name="portugues" id="portugues" value="portugues">Português
+            <input type="checkbox" name="ingles" id="ingles" value="ingles">Inglês
+            <br>
+            <label for="">Turno de Aula</label>
+            <input type="radio" name="turno">Manhã
+            <input type="radio" name="turno">Tarde
+            <input type="radio" name="turno">Noite
+            <input type="radio" name="turno">Fim de Semana
+            <br>
+            <label for="">Sexo</label>
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Feminino
+            <input type="radio" name="sexo">Não Binário
+            <input type="radio" name="sexo">Outros
+        </fieldset>
+        <fieldset>
+            <input type="button" onclick="alert('Ola pessoal')" value="Botão" />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>

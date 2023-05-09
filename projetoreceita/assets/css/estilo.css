@@ -1,0 +1,110 @@
+body {
+    background-color: #eaf7da;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+    padding: 5px;
+    color: #fff;
+    background-image: linear-gradient(#361f1d, #5d3b3b, #7a5252);
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#cabecalho{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5d3b3b;
+    color: white;
+}
+
+#banner{
+    width: 250px; 
+}
+
+nav{
+    width: 200px;
+    float: left;
+}
+
+nav ul li{
+    background-color: #bbd49a;
+    margin-bottom: 3px;
+}
+
+nav ul li:hover{
+    background-color: #95aa79;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#item-select{
+    background-color: #95aa79;
+}
+#topo{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+#topo img{
+    width: 400px;
+}
+
+figure{
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+    font-family: "comic sans MS", cursive;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+    transform: rotate(-5deg);
+
+}
+
+#tb-nutrientes{
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+#tb-nutrientes th{
+    background-color: #6bfba0;
+}
+
+#tb-nutrientes tr:nth-child(odd){
+    background-color: yellow;
+}
+
+#tb-nutrientes tr:nth-child(even){
+    background-color: white;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    width: 1000px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
